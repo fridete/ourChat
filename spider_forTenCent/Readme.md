@@ -1,6 +1,6 @@
 # BonesDL
 
-This is a tool to get video(free and vip) from TencentVideo ,now version is V-beta0.5
+This is a tool to get video(free and vip) from TencentVideo ,now version is V-beta0.5.
 i hope you will like it!
 
 update log:
