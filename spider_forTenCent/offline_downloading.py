@@ -1,7 +1,8 @@
 import urllib.request
 import re
 def getVideo(page):
-        req = urllib.request.Request("http://www.budejie.com/video/%s" %page)
+        input_web=input('请输入网址')
+        req = urllib.request.Request("%s/%s" %page%input_web)
         req.add_header("User-Agent","Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36")
         html = urllib.request.urlopen(req).read()
         html = html.decode('UTF-8')
