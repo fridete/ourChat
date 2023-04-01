@@ -1,1 +1,5 @@
-# my_vs_programmer:contains C++.C#
+# my_vs_programmer:contains
+
+C++;
+C#;
+python;
